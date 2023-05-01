@@ -58,7 +58,7 @@ function LandingPage() {
             </p>
             <ul>
               <li>
-                <a href="youtube.com">Resume</a>
+                <a href="https://docs.google.com/document/d/1rveU9MYT9l8WUB_Nkz7SMtlTGTsZpU4S7hpwoM1K_Xg/edit?usp=sharing">Resume</a>
               </li>
               <li>
                 <a href="mailto: tylersortijas@gmail.com">Email</a>
