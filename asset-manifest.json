@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2023/static/css/main.46f7e754.css",
-    "main.js": "/portfolio2023/static/js/main.537b13ba.js",
+    "main.js": "/portfolio2023/static/js/main.fa5120ea.js",
     "static/media/newcar2023.jpg": "/portfolio2023/static/media/newcar2023.48fdc6e37f5bb973ea2a.jpg",
     "static/media/coaching2019.jpg": "/portfolio2023/static/media/coaching2019.a6d2b97fd742523232ff.jpg",
     "static/media/familychristmas2019.jpg": "/portfolio2023/static/media/familychristmas2019.36dc09c446e8863e0459.jpg",
@@ -15,10 +15,10 @@
     "index.html": "/portfolio2023/index.html",
     "static/media/code-solid.svg": "/portfolio2023/static/media/code-solid.810ff813fa4beab8f343068e8f521d42.svg",
     "main.46f7e754.css.map": "/portfolio2023/static/css/main.46f7e754.css.map",
-    "main.537b13ba.js.map": "/portfolio2023/static/js/main.537b13ba.js.map"
+    "main.fa5120ea.js.map": "/portfolio2023/static/js/main.fa5120ea.js.map"
   },
   "entrypoints": [
     "static/css/main.46f7e754.css",
-    "static/js/main.537b13ba.js"
+    "static/js/main.fa5120ea.js"
   ]
 }
