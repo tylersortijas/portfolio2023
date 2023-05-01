@@ -1,0 +1,428 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+.header-container {
+  /* background: linear-gradient(#4724C4, #3574D6); */
+  padding: 30px 20px 60px 20px;
+  animation: bg-animate 8s ease infinite;
+}
+
+@keyframes bg-animate {
+  0% {
+    background-color: #4724C4;
+  }
+
+  50% {
+    background-color: #3574D6;
+  }
+
+  100% {
+    background-color: #4724C4;
+  }
+}
+
+/* Nav Section */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: transparent;
+  margin-bottom: 70px;
+}
+
+nav img {
+  max-width: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffff;
+  display: inline-block;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Title Section */
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.title-container img {
+  max-width: 288px;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #ffff;
+}
+
+.title-text h1 {
+  font-size: 3rem;
+  animation: title-animate 8s ease infinite;
+}
+
+@keyframes title-animate {
+  0% {
+    color: #3574D6;
+  }
+
+  50% {
+    color: #4724C4;
+  }
+
+  100% {
+    color: #3574D6;
+  }
+}
+
+.title-text p {
+  font-size: 1.3rem;
+}
+
+.title-text ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.title-text a {
+  text-decoration: underline;
+  color: #ffff;
+  font-size: 1.3rem;
+}
+
+.title-container img {
+  border-radius: 50%;
+  box-shadow: 0 0 140px 10px rgba(0, 0, 0, .5);
+}
+
+/* Knowledge Section */
+
+.knowledge-container {
+  margin-bottom: 50px;
+}
+
+.knowledge-card {
+  text-align: center;
+  padding: 20px 30px;
+  width: 400px;
+  height: 465px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  position: relative;
+  top: -46px;
+  left: 745px;
+  background-color: #ffff;
+  gap: 10px;
+}
+
+.knowledge-card img {
+  width: 40px;
+}
+
+.knowledge-card>h4 {
+  color: #0AA0D0;
+}
+
+.knowledge-card ul {
+  list-style-type: none;
+}
+
+/* Work Section */
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 80px;
+}
+
+.work-container h2 {
+  text-align: center;
+  text-decoration: underline #0AA0D0;
+  margin-bottom: 100px;
+}
+
+.work-card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.work-card>img {
+  max-width: 700px;
+  max-height: 700px;
+}
+
+.card-text {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-text>h3 {
+  color: #ffff;
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: #0AA0D0;
+  padding: 10px;
+}
+
+.card-text>p {
+  font-weight: 300;
+}
+
+.card-links {
+  display: flex;
+  gap: 15px;
+}
+
+.card-links>a {
+  color: #0AA0D0;
+}
+
+/* About Section */
+
+.about-container {
+  margin-bottom: 80px;
+}
+
+#about-title {
+  text-align: center;
+  text-decoration: underline #0AA0D0;
+  margin-bottom: 50px;
+}
+
+.about-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.about-images {
+  display: flex;
+  gap: 10px;
+}
+
+.about-col-one,
+.about-col-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-col-one img,
+.about-col-two img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.about-text {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-text h2 {
+  font-weight: 300;
+  background-color: #0AA0D0;
+  color: #ffff;
+  padding: 10px;
+}
+
+/* Contact Section */
+
+.contact-container {
+  background-color: #4D4D4D;
+  text-align: center;
+  padding: 40px;
+}
+
+.contact-container h2 {
+  color: #ffff;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.contact-container ul {
+  list-style-type: none;
+}
+
+.contact-container a {
+  color: #0AA0D0;
+  text-decoration: none;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-container {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Mobile and 4k Displays */
+
+@media screen and (min-width: 2560px) {
+  .knowledge-card {
+    position: relative;
+    top: -46px;
+    left: 1069px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .knowledge-card {
+    left: 520px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .knowledge-card {
+    left: 309px;
+  }
+
+  .work-card>img {
+    max-width: 450px;
+  }
+
+  .card-text {
+    width: 450px;
+  }
+
+  .about-card {
+    padding: 30px;
+  }
+
+  .about-col-one img,
+  .about-col-two img {
+    max-width: 200px;
+    max-height: 260px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .work-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .knowledge-card {
+    left: 303px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title-container {
+    width: 50%;
+    position: relative;
+    left: 219px;
+  }
+
+  .knowledge-card {
+    left: 185px;
+  }
+
+  .about-card {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title-container {
+    left: 103px;
+  }
+
+  .title-container img {
+    max-width: 134px;
+  }
+
+  .title-text h1 {
+    font-size: 2rem;
+  }
+
+  .title-text p,
+  .title-text a {
+    font-size: .825rem;
+  }
+
+  .knowledge-card {
+    left: 47px;
+    width: 321px;
+  }
+
+  .card-text {
+    width: 369px;
+  }
+
+  .work-card>img {
+    max-width: 435px;
+  }
+
+  .about-col-one img,
+  .about-col-two img {
+    max-width: 210px;
+    max-height: 266px;
+  }
+
+  .about-text {
+    width: 355px;
+  }
+}
