@@ -8,6 +8,7 @@ import PremierAuto from "../images/premier_auto_spa.jpg";
 import Lamborghini from "../images/lamborghini_clone.jpg";
 import Tindog from "../images/tindog.jpg";
 import Apple from "../images/apple_clone.jpg";
+import Microsoft from "../images/microsoft-clone.jpg";
 import FamilyChristmas from "../images/familychristmas2019.jpg";
 import Siblings from "../images/siblings.jpg";
 import Coaching from "../images/coaching2019.jpg";
@@ -58,7 +59,9 @@ function LandingPage() {
             </p>
             <ul>
               <li>
-                <a href="https://docs.google.com/document/d/1rveU9MYT9l8WUB_Nkz7SMtlTGTsZpU4S7hpwoM1K_Xg/edit?usp=sharing">Resume</a>
+                <a href="https://docs.google.com/document/d/1rveU9MYT9l8WUB_Nkz7SMtlTGTsZpU4S7hpwoM1K_Xg/edit?usp=sharing">
+                  Resume
+                </a>
               </li>
               <li>
                 <a href="mailto: tylersortijas@gmail.com">Email</a>
@@ -116,7 +119,7 @@ function LandingPage() {
         <div className="work-card">
           <img src={Apple} alt="Apple Clone Website" />
           <div className="card-text">
-            <h3>Apple Website Clone</h3>
+            <h3>Apple - Landing Page</h3>
             <p>
               Recreated the Apple landing page by eye, using Tailwind in tandem
               with React. This pushed my limits in creating more realistic
@@ -130,7 +133,7 @@ function LandingPage() {
               <a href="https://tylersortijas.github.io/apple-clone/">Preview</a>
             </div>
             <hr />
-            <p>HTML | CSS | Javascript | REACT.JS | TailwindCSS</p>
+            <p>HTML | CSS | Javascript | REACT.JS | Tailwind</p>
           </div>
         </div>
         <div className="work-card">
@@ -157,7 +160,7 @@ function LandingPage() {
         <div className="work-card">
           <img src={Lamborghini} alt="Lamborghini Website Clone" />
           <div className="card-text">
-            <h3>Lamborghini Clone - Shopping Cart</h3>
+            <h3>Lamborghini - Shopping Cart</h3>
             <p>
               A shopping site in the format of Lamborghinis. The main purpose of
               this project was to create a functional cart system that
@@ -175,6 +178,26 @@ function LandingPage() {
             <hr />
             <p>HTML | CSS | Javascript | REACT.JS</p>
           </div>
+        </div>
+        <div className="work-card">
+          <div className="card-text">
+            <h3>Microsoft - Landing Page</h3>
+            <p>
+              A responsive Microsoft Landing page clone that was created using
+              React, Tailwind, Javascript, and HTML.
+            </p>
+            <div className="card-links">
+              <a href="https://github.com/tylersortijas/microsoft-clone">
+                Source Code
+              </a>
+              <a href="https://tylersortijas.github.io/microsoft-clone/">
+                Preview
+              </a>
+            </div>
+            <hr />
+            <p>HTML | CSS | REACT.JS | Tailwind</p>
+          </div>
+          <img src={Microsoft} alt="Microsoft Clone Preview" />
         </div>
       </section>
       <section className="about-container" id="about">
