@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.46f7e754.css",
-    "main.js": "/static/js/main.35a8e5c5.js",
+    "main.js": "/static/js/main.de9abda1.js",
     "static/media/newcar2023.jpg": "/static/media/newcar2023.48fdc6e37f5bb973ea2a.jpg",
     "static/media/coaching2019.jpg": "/static/media/coaching2019.a6d2b97fd742523232ff.jpg",
     "static/media/familychristmas2019.jpg": "/static/media/familychristmas2019.36dc09c446e8863e0459.jpg",
     "static/media/premier_auto_spa.jpg": "/static/media/premier_auto_spa.4956b415d9a524bb48ac.jpg",
     "static/media/siblings.jpg": "/static/media/siblings.58c7b9ccf25fab333a67.jpg",
+    "static/media/microsoft-clone.jpg": "/static/media/microsoft-clone.bbea9e87a4167257a33e.jpg",
     "static/media/headshot-circa-2018.png": "/static/media/headshot-circa-2018.beaadce13c9e31c73941.png",
     "static/media/apple_clone.jpg": "/static/media/apple_clone.776bfb81850579d43b2f.jpg",
     "static/media/lamborghini_clone.jpg": "/static/media/lamborghini_clone.8b507da4277f39865f61.jpg",
@@ -15,10 +16,10 @@
     "index.html": "/index.html",
     "static/media/code-solid.svg": "/static/media/code-solid.810ff813fa4beab8f343068e8f521d42.svg",
     "main.46f7e754.css.map": "/static/css/main.46f7e754.css.map",
-    "main.35a8e5c5.js.map": "/static/js/main.35a8e5c5.js.map"
+    "main.de9abda1.js.map": "/static/js/main.de9abda1.js.map"
   },
   "entrypoints": [
     "static/css/main.46f7e754.css",
-    "static/js/main.35a8e5c5.js"
+    "static/js/main.de9abda1.js"
   ]
 }
