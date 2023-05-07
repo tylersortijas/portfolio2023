@@ -203,6 +203,23 @@ nav a:hover::after {
 .work-card>img {
   max-width: 700px;
   max-height: 700px;
+  padding: 15px 10px 5px 10px;
+  border-radius: 10px;
+  animation: image-animate 5s ease-in infinite;
+}
+
+@keyframes image-animate {
+  0% {
+    background-color: #3574D6;
+  }
+
+  50% {
+    background-color: #4724C4;
+  }
+
+  100% {
+    background-color: #3574D6;
+  }
 }
 
 .card-text {
