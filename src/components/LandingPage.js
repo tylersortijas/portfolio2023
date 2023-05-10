@@ -111,7 +111,7 @@ function LandingPage() {
               <a href="https://github.com/tylersortijas/clothing-shop">
                 Source Code
               </a>
-              <a href="https://tylersortijas.github.io/clothing-chop/">Preview</a>
+              <a href="https://tylersortijas.github.io/clothing-shop/">Preview</a>
             </div>
             <hr />
             <p>HTML | CSS | Javascript | REACT.JS | Tailwind</p>
