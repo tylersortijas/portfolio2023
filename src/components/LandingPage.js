@@ -13,6 +13,7 @@ import FamilyChristmas from "../images/familychristmas2019.jpg";
 import Siblings from "../images/siblings.jpg";
 import Coaching from "../images/coaching2019.jpg";
 import Car from "../images/newcar2023.jpg";
+import Shop from "../images/ecommerce-shop.jpg";
 
 function LandingPage() {
   const [workTarget, setWorkTarget] = useState(null);
@@ -94,6 +95,28 @@ function LandingPage() {
       </section>
       <section className="work-container" id="work">
         <h2>My Work</h2>
+        <div className="work-card">
+          <img src={Shop} alt="Clothing Ecommerce Shop" />
+          <div className="card-text">
+            <h3>Ecommerce Shop</h3>
+            <p>
+              An ecommerce shop that uses the fake store API to pull product
+              data. It's filtered to only show Men's and Women's clothing. It
+              has a responsive design, created with tailwind. With React I
+              separated the data between product, sidebar, and cart data. Which
+              is then used in conjunction with the components, home, and product
+              page to display information seamlessly all across.
+            </p>
+            <div className="card-links">
+              <a href="https://github.com/tylersortijas/clothing-shop">
+                Source Code
+              </a>
+              <a href="https://tylersortijas.github.io/clothing-chop/">Preview</a>
+            </div>
+            <hr />
+            <p>HTML | CSS | Javascript | REACT.JS | Tailwind</p>
+          </div>
+        </div>
         <div className="work-card">
           <div className="card-text">
             <h3>Premier Auto Spa</h3>
