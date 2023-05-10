@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.633d98a7.css",
-    "main.js": "/static/js/main.de9abda1.js",
+    "main.js": "/static/js/main.dd125c49.js",
     "static/media/newcar2023.jpg": "/static/media/newcar2023.48fdc6e37f5bb973ea2a.jpg",
     "static/media/coaching2019.jpg": "/static/media/coaching2019.a6d2b97fd742523232ff.jpg",
     "static/media/familychristmas2019.jpg": "/static/media/familychristmas2019.36dc09c446e8863e0459.jpg",
@@ -12,14 +12,15 @@
     "static/media/apple_clone.jpg": "/static/media/apple_clone.776bfb81850579d43b2f.jpg",
     "static/media/lamborghini_clone.jpg": "/static/media/lamborghini_clone.8b507da4277f39865f61.jpg",
     "static/media/tindog.jpg": "/static/media/tindog.ecfc9f5f4c539520a1f5.jpg",
+    "static/media/ecommerce-shop.jpg": "/static/media/ecommerce-shop.7d54d85603a01d3eb899.jpg",
     "static/media/my_logo.jpg": "/static/media/my_logo.50792a4d031e61b832ca.jpg",
     "index.html": "/index.html",
     "static/media/code-solid.svg": "/static/media/code-solid.810ff813fa4beab8f343068e8f521d42.svg",
     "main.633d98a7.css.map": "/static/css/main.633d98a7.css.map",
-    "main.de9abda1.js.map": "/static/js/main.de9abda1.js.map"
+    "main.dd125c49.js.map": "/static/js/main.dd125c49.js.map"
   },
   "entrypoints": [
     "static/css/main.633d98a7.css",
-    "static/js/main.de9abda1.js"
+    "static/js/main.dd125c49.js"
   ]
 }
