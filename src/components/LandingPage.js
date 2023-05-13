@@ -14,6 +14,7 @@ import Siblings from "../images/siblings.jpg";
 import Coaching from "../images/coaching2019.jpg";
 import Car from "../images/newcar2023.jpg";
 import Shop from "../images/ecommerce-shop.jpg";
+import Krypto from "../images/kryptobase.jpg";
 
 function LandingPage() {
   const [workTarget, setWorkTarget] = useState(null);
@@ -96,6 +97,25 @@ function LandingPage() {
       <section className="work-container" id="work">
         <h2>My Work</h2>
         <div className="work-card">
+          <div className="card-text">
+            <h3>Kryptobase</h3>
+            <p>
+              A crypto market watcher using a Coin API. It's fully responsive
+              via Tailwind and utilizes over 50+ coin data that is being updated
+              as we speak.
+            </p>
+            <div className="card-links">
+              <a href="https://github.com/tylersortijas/kryptobase">
+                Source Code
+              </a>
+              <a href="https://tylersortijas.github.io/kryptobase">Preview</a>
+            </div>
+            <hr />
+            <p>HTML | CSS | Javascript | REACT.JS | Taillwind</p>
+          </div>
+          <img src={Krypto} alt="Kryptobase" />
+        </div>
+        <div className="work-card">
           <img src={Shop} alt="Clothing Ecommerce Shop" />
           <div className="card-text">
             <h3>Ecommerce Shop</h3>
@@ -111,7 +131,9 @@ function LandingPage() {
               <a href="https://github.com/tylersortijas/clothing-shop">
                 Source Code
               </a>
-              <a href="https://tylersortijas.github.io/clothing-shop/">Preview</a>
+              <a href="https://tylersortijas.github.io/clothing-shop/">
+                Preview
+              </a>
             </div>
             <hr />
             <p>HTML | CSS | Javascript | REACT.JS | Tailwind</p>
