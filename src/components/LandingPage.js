@@ -15,6 +15,7 @@ import Coaching from "../images/coaching2019.jpg";
 import Car from "../images/newcar2023.jpg";
 import Shop from "../images/ecommerce-shop.jpg";
 import Krypto from "../images/kryptobase.jpg";
+import Carventi from "../images/carventi.jpg";
 
 function LandingPage() {
   const [workTarget, setWorkTarget] = useState(null);
@@ -95,6 +96,26 @@ function LandingPage() {
         </div>
       </section>
       <section className="work-container" id="work">
+        <div className="work-card">
+          <img src={Carventi} alt="Car Sales Site Carventi" />
+          <div className="card-text">
+            <h3>Carventi</h3>
+            <p>
+              Carvana!? No! Carventi! A Car sales website that uses designs
+              based from Carvana. The page has a fully responsive design created
+              with React and Tailwind. Adding on to it's design we even have a
+              testimonial, selling section, and more. Check it out below!
+            </p>
+            <div className="card-links">
+              <a href="https://github.com/tylersortijas/car-venti">
+                Source Code
+              </a>
+              <a href="https://tylersortijas.github.io/car-venti/">Preview</a>
+            </div>
+            <hr />
+            <p>HTML | CSS | Javascript | REACT.JS | Tailwind</p>
+          </div>
+        </div>
         <h2>My Work</h2>
         <div className="work-card">
           <div className="card-text">
@@ -111,7 +132,7 @@ function LandingPage() {
               <a href="https://tylersortijas.github.io/kryptobase">Preview</a>
             </div>
             <hr />
-            <p>HTML | CSS | Javascript | REACT.JS | Taillwind</p>
+            <p>HTML | CSS | Javascript | REACT.JS | Taillwind | Coin API</p>
           </div>
           <img src={Krypto} alt="Kryptobase" />
         </div>
@@ -134,6 +155,49 @@ function LandingPage() {
               <a href="https://tylersortijas.github.io/clothing-shop/">
                 Preview
               </a>
+            </div>
+            <hr />
+            <p>
+              HTML | CSS | Javascript | REACT.JS | Tailwind | Fake Store API
+            </p>
+          </div>
+        </div>
+        <div className="work-card">
+          <div className="card-text">
+            <h3>Tindog (the Tinder for Dogs)</h3>
+            <p>
+              A responsive project to mimic a Tinder application, but for one of
+              our many four legged friends. The project includes testimonials, a
+              carousel, price points, and fun designs.
+            </p>
+            <div className="card-links">
+              <a href="https://github.com/tylersortijas/tindog-tinder-website">
+                Source Code
+              </a>
+              <a href="https://tylersortijas.github.io/tindog-tinder-website/">
+                Preview
+              </a>
+            </div>
+            <hr />
+            <p>HTML | CSS | Bootstrap</p>
+          </div>
+          <img src={Tindog} alt="Tindog Website" />
+        </div>
+        <div className="work-card">
+          <img src={Apple} alt="Apple Clone Website" />
+          <div className="card-text">
+            <h3>Apple - Landing Page</h3>
+            <p>
+              Recreated the Apple landing page by eye, using Tailwind in tandem
+              with React. This pushed my limits in creating more realistic
+              designs and user driven experiences that are being used as we
+              speak.
+            </p>
+            <div className="card-links">
+              <a href="https://github.com/tylersortijas/apple-clone">
+                Source Code
+              </a>
+              <a href="https://tylersortijas.github.io/apple-clone/">Preview</a>
             </div>
             <hr />
             <p>HTML | CSS | Javascript | REACT.JS | Tailwind</p>
@@ -160,47 +224,6 @@ function LandingPage() {
             <p>HTML | CSS | Javascript | REACT.JS</p>
           </div>
           <img src={PremierAuto} alt="Premier Auto Spa" />
-        </div>
-        <div className="work-card">
-          <img src={Apple} alt="Apple Clone Website" />
-          <div className="card-text">
-            <h3>Apple - Landing Page</h3>
-            <p>
-              Recreated the Apple landing page by eye, using Tailwind in tandem
-              with React. This pushed my limits in creating more realistic
-              designs and user driven experiences that are being used as we
-              speak.
-            </p>
-            <div className="card-links">
-              <a href="https://github.com/tylersortijas/apple-clone">
-                Source Code
-              </a>
-              <a href="https://tylersortijas.github.io/apple-clone/">Preview</a>
-            </div>
-            <hr />
-            <p>HTML | CSS | Javascript | REACT.JS | Tailwind</p>
-          </div>
-        </div>
-        <div className="work-card">
-          <div className="card-text">
-            <h3>Tindog (the Tinder for Dogs)</h3>
-            <p>
-              A responsive project to mimic a Tinder application, but for one of
-              our many four legged friends. The project includes testimonials, a
-              carousel, price points, and fun designs.
-            </p>
-            <div className="card-links">
-              <a href="https://github.com/tylersortijas/tindog-tinder-website">
-                Source Code
-              </a>
-              <a href="https://tylersortijas.github.io/tindog-tinder-website/">
-                Preview
-              </a>
-            </div>
-            <hr />
-            <p>HTML | CSS | Bootstrap</p>
-          </div>
-          <img src={Tindog} alt="Tindog Website" />
         </div>
         <div className="work-card">
           <img src={Lamborghini} alt="Lamborghini Website Clone" />
