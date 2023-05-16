@@ -95,6 +95,7 @@ function LandingPage() {
           </ul>
         </div>
       </section>
+      <h2>My Work</h2>
       <section className="work-container" id="work">
         <div className="work-card">
           <img src={Carventi} alt="Car Sales Site Carventi" />
@@ -116,7 +117,6 @@ function LandingPage() {
             <p>HTML | CSS | Javascript | REACT.JS | Tailwind</p>
           </div>
         </div>
-        <h2>My Work</h2>
         <div className="work-card">
           <div className="card-text">
             <h3>Kryptobase</h3>
