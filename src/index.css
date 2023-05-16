@@ -180,6 +180,12 @@ nav a:hover::after {
 
 /* Work Section */
 
+#work-title {
+  text-align: center;
+  text-decoration: underline #0AA0D0;
+  margin-bottom: 50px;
+}
+
 .work-container {
   display: flex;
   flex-direction: column;

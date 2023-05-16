@@ -95,7 +95,7 @@ function LandingPage() {
           </ul>
         </div>
       </section>
-      <h2>My Work</h2>
+      <h2 id="work-title">My Work</h2>
       <section className="work-container" id="work">
         <div className="work-card">
           <img src={Carventi} alt="Car Sales Site Carventi" />
