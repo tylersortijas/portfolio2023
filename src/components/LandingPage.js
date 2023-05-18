@@ -92,6 +92,7 @@ function LandingPage() {
             <li>VSCode</li>
             <li>Github</li>
             <li>NodeJS</li>
+            <li>Jest</li>
           </ul>
         </div>
       </section>
